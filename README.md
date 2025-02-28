@@ -17,6 +17,14 @@ A simple and transparent decentralized voting application (DApp) built on the **
 - **Blockchain**: Edu Chain (testnet), Solidity
 - **Smart Contracts**: Voting Contract with features such as voting, vote count, and tracking voters to ensure security and fairness in the election process.
 
+## Contract Address
+
+The deployed contract address on the **Edu Chain testnet** is: 0x254ef2Dea3D1C666B8edf083865d5CEC931D5F43
+
+You can use this address to interact with the contract on the testnet. Make sure to configure your project to use this address by adding it to your `.env` file as follows:
+
+NEXT_PUBLIC_CONTRACT_ADDRESS=0x254ef2Dea3D1C666B8edf083865d5CEC931D5F43
+
 ## Getting Started
 
 To run the development server, follow these steps:
