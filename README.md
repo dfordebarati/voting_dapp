@@ -1,8 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Voting DApp
+
+A simple and transparent decentralized voting application (DApp) built on the **Edu Chain testnet** using **Next.js**, **TypeScript**, and **Tailwind CSS**. This DApp enables users to participate in elections by securely voting for predefined candidates, leveraging blockchain technology to provide a tamper-proof and verifiable voting process. The application ensures that votes are immutable, transparent, and recorded on the blockchain for public verification.
+
+## Key Features
+
+- **Real-Time Vote Updates**: Vote counts are updated in real-time without requiring a page reload, ensuring that users can view the most current results immediately after voting.
+- **Secure Voting**: Prevents multiple votes from the same user by utilizing the `hasVoted` mapping in the smart contract, ensuring each user can cast only one vote.
+- **Voting Deadline**: Voting is restricted to a specified time frame, and users can only vote before the deadline, ensuring fairness and preventing last-minute voting manipulation.
+- **Dynamic Candidate Addition**: Administrators can dynamically add candidates to the election, allowing the flexibility to adjust the list of candidates beyond the default ones.
+- **Blockchain Transparency**: All voting data is stored on-chain, ensuring transparency and immutability of the voting process. Voters can verify the election results through the blockchain.
+- **Loading Indicator**: Displays a loading animation while blockchain transactions are being processed, improving the user experience by providing visual feedback during the transaction confirmation.
+
+## Tech Stack
+
+- **Frontend**: Next.js, TypeScript, Tailwind CSS
+- **Blockchain**: Edu Chain (testnet), Solidity
+- **Smart Contracts**: Voting Contract with features such as voting, vote count, and tracking voters to ensure security and fairness in the election process.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server, follow these steps:
+
+1. Clone the repository:
+
 
 ```bash
 npm run dev
