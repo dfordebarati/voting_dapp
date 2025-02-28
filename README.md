@@ -17,6 +17,10 @@ A simple and transparent decentralized voting application (DApp) built on the **
 - **Blockchain**: Edu Chain (testnet), Solidity
 - **Smart Contracts**: Voting Contract with features such as voting, vote count, and tracking voters to ensure security and fairness in the election process.
 
+## Contract Address
+
+The contract address on the Edu Chain testnet is:
+
 ## Getting Started
 
 To run the development server, follow these steps:
