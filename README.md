@@ -19,7 +19,7 @@ A simple and transparent decentralized voting application (DApp) built on the **
 
 ## Contract Address
 
-The contract address on the Edu Chain testnet is:
+The contract address on the Edu Chain testnet is: 0x254ef2Dea3D1C666B8edf083865d5CEC931D5F43
 
 ## Getting Started
 
